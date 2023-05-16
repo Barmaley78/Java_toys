@@ -34,9 +34,14 @@ public class Controller {
                     model.changeLotChance(id, chance);
                     break;
                 case 3:
-
+                    model.startLotery();
                     break;
                 case 4:
+                    view.showWarehouse(model.getWarehouse());
+
+                    System.out.println("После выдачи призов на складе осталось ");
+                    view.showWarehouse(model.getWarehouse());
+
 
                     break;
             }

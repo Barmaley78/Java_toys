@@ -38,11 +38,9 @@ public class Controller {
                     break;
                 case 4:
                     view.showWarehouse(model.getWarehouse());
-
+                    model.finalizingLotery();
                     System.out.println("После выдачи призов на складе осталось ");
                     view.showWarehouse(model.getWarehouse());
-
-
                     break;
             }
         }

@@ -43,8 +43,8 @@ public class Model {
         return res;
     }
 
-
     public void startLotery(){
+        Toy t = new Toy();
         int min = getMinimumId();
         int max = getMaximumId()+1 -min;
         int tempId = (int) (Math.random() * max) + min;
@@ -53,14 +53,31 @@ public class Model {
         for (Toy i: warehouse){
             if (i.id == prizeId){
                 int lotery = (int) (Math.random()*100);
-                if (i.chance+lotery >=100){
-                    winLots.add(i);
+                if (i.chance+lotery >=80){
+                    t = i;
+                    t.quantity = 1;
+                    winLots.add(t);
                     flag = true;
+                    System.out.println("Был разыгран приз - " + i.name);
                 }
-                System.out.println("Был разыгран приз - " + i.name);
             }
         }
         if (flag == false) System.out.println("В розыгрыше нет победителя");
     }
+
+    public void finalizingLotery(){
+        Toy t = new Toy();
+        for(Toy i: warehouse){
+            for (Toy j: winLots){
+                if (i.id == j.id) i.quantity = i.quantity - j.quantity;
+            }
+        }
+        for(Toy i: warehouse) {
+            if (i.quantity == 0) t = i;
+
+        }
+        winLots.clear();
+        }
+
 
 }

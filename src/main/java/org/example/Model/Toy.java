@@ -21,6 +21,9 @@ public class Toy {
                 ", шанс выпадения = " + chance;
     }
 
+    public Toy() {
+    }
+
     public int getId() {
         return id;
     }

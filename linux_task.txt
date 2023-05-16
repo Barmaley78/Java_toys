@@ -1,0 +1,168 @@
+barmaley78@Ubuntu78:~$ mkdir school_age_toys
+barmaley78@Ubuntu78:~$ mkdir primary_age_toys
+
+barmaley78@Ubuntu78:~$ ll
+итого 148
+drwxr-x--- 21 barmaley78 barmaley78 4096 апр 29 20:45  ./
+drwxr-xr-x  7 root       root       4096 апр  2 16:42  ../
+-rw-------  1 barmaley78 barmaley78 6927 апр 22 19:42  .bash_history
+-rw-r--r--  1 barmaley78 barmaley78  220 мар 26 14:35  .bash_logout
+-rw-r--r--  1 barmaley78 barmaley78 3771 мар 26 14:35  .bashrc
+drwx------ 12 barmaley78 barmaley78 4096 мар 26 15:13  .cache/
+drwx------ 15 barmaley78 barmaley78 4096 апр 22 18:56  .config/
+drwxrwxr-x  2 barmaley78 barmaley78 4096 апр 22 19:40  hw8/
+-rw-------  1 barmaley78 barmaley78   20 апр  8 17:45  .lesshst
+drwx------  3 barmaley78 barmaley78 4096 мар 26 14:38  .local/
+drwxrwxr-x  2 barmaley78 barmaley78 4096 апр  1 18:33  newdir/
+-rw-rw-r--  1 barmaley78 barmaley78   46 апр  1 18:21  newfilename
+-rw-r--r--  1 root       root       3882 ноя 15 12:49  nginx_1.18.0-6ubuntu14.3_amd64.deb
+drwxrwxr-x  2 barmaley78 barmaley78 4096 апр 29 20:42  primary_age_toys/
+-rw-r--r--  1 barmaley78 barmaley78  807 мар 26 14:35  .profile
+drwxrwxr-x  2 barmaley78 barmaley78 4096 апр 29 20:42  school_age_toys/
+-rw-rw-r--  1 barmaley78 barmaley78   66 апр  8 18:03  .selected_editor
+drwxrwx---  1 root       vboxsf        0 мар 26 14:57  shared/
+drwx------  5 barmaley78 barmaley78 4096 апр 15 14:20  snap/
+-rw-r--r--  1 barmaley78 barmaley78    0 мар 26 14:41  .sudo_as_admin_successful
+drwxrwxr-x  2 barmaley78 barmaley78 4096 мар 29 23:33  test/
+drwxrwxr-x  2 barmaley78 barmaley78 4096 апр 22 18:47  tests/
+-rw-rw-r--  1 barmaley78 barmaley78    5 апр  8 17:59  test.txt
+-rw-rw-r--  1 barmaley78 barmaley78    5 апр 22 19:40  test.txt.bak
+-rw-rw-r--  1 barmaley78 barmaley78    5 апр 22 19:30  test.txt.bak~
+-rw-r-----  1 barmaley78 barmaley78    5 апр 29 20:41  .vboxclient-clipboard.pid
+-rw-r-----  1 barmaley78 barmaley78    5 апр 29 20:41  .vboxclient-draganddrop.pid
+-rw-r-----  1 barmaley78 barmaley78    5 апр 29 20:41  .vboxclient-seamless.pid
+-rw-r-----  1 barmaley78 barmaley78    5 апр 29 20:41  .vboxclient-vmsvga-session-tty2.pid
+-rw-------  1 barmaley78 barmaley78 2678 апр  1 18:21  .viminfo
+drwxr-xr-x  2 barmaley78 barmaley78 4096 мар 26 14:38  Видео/
+drwxr-xr-x  2 barmaley78 barmaley78 4096 мар 26 14:38  Документы/
+drwxr-xr-x  2 barmaley78 barmaley78 4096 апр  9 15:32  Загрузки/
+drwxr-xr-x  2 barmaley78 barmaley78 4096 мар 26 14:38  Изображения/
+drwxr-xr-x  2 barmaley78 barmaley78 4096 мар 26 14:38  Музыка/
+drwxr-xr-x  2 barmaley78 barmaley78 4096 мар 26 14:38  Общедоступные/
+drwxr-xr-x  2 barmaley78 barmaley78 4096 мар 26 14:38 'Рабочий стол'/
+drwxr-xr-x  2 barmaley78 barmaley78 4096 мар 26 14:38  Шаблоны/
+
+barmaley78@Ubuntu78:~$ cd school_age_toys/
+barmaley78@Ubuntu78:~/school_age_toys$ echo > robots.txt
+barmaley78@Ubuntu78:~/school_age_toys$ echo > constructors.txt
+barmaley78@Ubuntu78:~/school_age_toys$ echo > table_games.txt
+
+barmaley78@Ubuntu78:~/school_age_toys$ ll
+итого 20
+drwxrwxr-x  2 barmaley78 barmaley78 4096 апр 29 20:47 ./
+drwxr-x--- 21 barmaley78 barmaley78 4096 апр 29 20:45 ../
+-rw-rw-r--  1 barmaley78 barmaley78    1 апр 29 20:46 constructors.txt
+-rw-rw-r--  1 barmaley78 barmaley78    1 апр 29 20:45 robots.txt
+-rw-rw-r--  1 barmaley78 barmaley78    1 апр 29 20:47 table_games.txt
+
+barmaley78@Ubuntu78:~/school_age_toys$ cd ..
+
+barmaley78@Ubuntu78:~$ cd primary_age_toys/
+barmaley78@Ubuntu78:~/primary_age_toys$ echo > soft_toys.txt
+barmaley78@Ubuntu78:~/primary_age_toys$ echo > cars.txt
+barmaley78@Ubuntu78:~/primary_age_toys$ echo > dolls.txt
+
+barmaley78@Ubuntu78:~/primary_age_toys$ ll
+итого 20
+drwxrwxr-x  2 barmaley78 barmaley78 4096 апр 29 20:48 ./
+drwxr-x--- 21 barmaley78 barmaley78 4096 апр 29 21:10 ../
+-rw-rw-r--  1 barmaley78 barmaley78    1 апр 29 20:48 cars.txt
+-rw-rw-r--  1 barmaley78 barmaley78    1 апр 29 20:48 dolls.txt
+-rw-rw-r--  1 barmaley78 barmaley78    1 апр 29 20:47 soft_toys.txt
+
+barmaley78@Ubuntu78:~$ cp -r school_age_toys toys_name/
+
+barmaley78@Ubuntu78:~$ cp -rT primary_age_toys toys_name
+
+barmaley78@Ubuntu78:~$ cd toys_name/
+barmaley78@Ubuntu78:~/toys_name$ ll
+итого 32
+drwxrwxr-x  2 barmaley78 barmaley78 4096 апр 29 21:22 ./
+drwxr-x--- 22 barmaley78 barmaley78 4096 апр 29 21:22 ../
+-rw-rw-r--  1 barmaley78 barmaley78    1 апр 29 21:22 cars.txt
+-rw-rw-r--  1 barmaley78 barmaley78    1 апр 29 21:22 constructors.txt
+-rw-rw-r--  1 barmaley78 barmaley78    1 апр 29 21:22 dolls.txt
+-rw-rw-r--  1 barmaley78 barmaley78    1 апр 29 21:22 robots.txt
+-rw-rw-r--  1 barmaley78 barmaley78    1 апр 29 21:22 soft_toys.txt
+-rw-rw-r--  1 barmaley78 barmaley78    1 апр 29 21:22 table_games.txt
+barmaley78@Ubuntu78:~/toys_name$ cd ..
+barmaley78@Ubuntu78:~$ mv toys_name toys
+
+barmaley78@Ubuntu78:~$ ll
+итого 152
+drwxr-x--- 22 barmaley78 barmaley78 4096 апр 29 21:23  ./
+drwxr-xr-x  7 root       root       4096 апр  2 16:42  ../
+-rw-------  1 barmaley78 barmaley78 6927 апр 22 19:42  .bash_history
+-rw-r--r--  1 barmaley78 barmaley78  220 мар 26 14:35  .bash_logout
+-rw-r--r--  1 barmaley78 barmaley78 3771 мар 26 14:35  .bashrc
+drwx------ 12 barmaley78 barmaley78 4096 мар 26 15:13  .cache/
+drwx------ 15 barmaley78 barmaley78 4096 апр 22 18:56  .config/
+drwxrwxr-x  2 barmaley78 barmaley78 4096 апр 22 19:40  hw8/
+-rw-------  1 barmaley78 barmaley78   20 апр  8 17:45  .lesshst
+drwx------  3 barmaley78 barmaley78 4096 мар 26 14:38  .local/
+drwxrwxr-x  2 barmaley78 barmaley78 4096 апр  1 18:33  newdir/
+-rw-rw-r--  1 barmaley78 barmaley78   46 апр  1 18:21  newfilename
+-rw-r--r--  1 root       root       3882 ноя 15 12:49  nginx_1.18.0-6ubuntu14.3_amd64.deb
+drwxrwxr-x  2 barmaley78 barmaley78 4096 апр 29 20:48  primary_age_toys/
+-rw-r--r--  1 barmaley78 barmaley78  807 мар 26 14:35  .profile
+drwxrwxr-x  2 barmaley78 barmaley78 4096 апр 29 21:07  school_age_toys/
+-rw-rw-r--  1 barmaley78 barmaley78   66 апр  8 18:03  .selected_editor
+drwxrwx---  1 root       vboxsf        0 мар 26 14:57  shared/
+drwx------  5 barmaley78 barmaley78 4096 апр 15 14:20  snap/
+-rw-r--r--  1 barmaley78 barmaley78    0 мар 26 14:41  .sudo_as_admin_successful
+drwxrwxr-x  2 barmaley78 barmaley78 4096 мар 29 23:33  test/
+drwxrwxr-x  2 barmaley78 barmaley78 4096 апр 22 18:47  tests/
+-rw-rw-r--  1 barmaley78 barmaley78    5 апр  8 17:59  test.txt
+-rw-rw-r--  1 barmaley78 barmaley78    5 апр 29 21:20  test.txt.bak
+-rw-rw-r--  1 barmaley78 barmaley78    5 апр 29 21:10  test.txt.bak~
+drwxrwxr-x  2 barmaley78 barmaley78 4096 апр 29 21:22  toys/
+-rw-r-----  1 barmaley78 barmaley78    5 апр 29 20:41  .vboxclient-clipboard.pid
+-rw-r-----  1 barmaley78 barmaley78    5 апр 29 20:41  .vboxclient-draganddrop.pid
+-rw-r-----  1 barmaley78 barmaley78    5 апр 29 20:41  .vboxclient-seamless.pid
+-rw-r-----  1 barmaley78 barmaley78    5 апр 29 20:41  .vboxclient-vmsvga-session-tty2.pid
+-rw-------  1 barmaley78 barmaley78 2678 апр  1 18:21  .viminfo
+drwxr-xr-x  2 barmaley78 barmaley78 4096 мар 26 14:38  Видео/
+drwxr-xr-x  2 barmaley78 barmaley78 4096 мар 26 14:38  Документы/
+drwxr-xr-x  2 barmaley78 barmaley78 4096 апр  9 15:32  Загрузки/
+drwxr-xr-x  2 barmaley78 barmaley78 4096 мар 26 14:38  Изображения/
+drwxr-xr-x  2 barmaley78 barmaley78 4096 мар 26 14:38  Музыка/
+drwxr-xr-x  2 barmaley78 barmaley78 4096 мар 26 14:38  Общедоступные/
+drwxr-xr-x  2 barmaley78 barmaley78 4096 мар 26 14:38 'Рабочий стол'/
+drwxr-xr-x  2 barmaley78 barmaley78 4096 мар 26 14:38  Шаблоны/
+
+barmaley78@Ubuntu78:~$ cd toys/
+
+barmaley78@Ubuntu78:~/toys$ ll
+итого 32
+drwxrwxr-x  2 barmaley78 barmaley78 4096 апр 29 21:22 ./
+drwxr-x--- 22 barmaley78 barmaley78 4096 апр 29 21:23 ../
+-rw-rw-r--  1 barmaley78 barmaley78    1 апр 29 21:22 cars.txt
+-rw-rw-r--  1 barmaley78 barmaley78    1 апр 29 21:22 constructors.txt
+-rw-rw-r--  1 barmaley78 barmaley78    1 апр 29 21:22 dolls.txt
+-rw-rw-r--  1 barmaley78 barmaley78    1 апр 29 21:22 robots.txt
+-rw-rw-r--  1 barmaley78 barmaley78    1 апр 29 21:22 soft_toys.txt
+-rw-rw-r--  1 barmaley78 barmaley78    1 апр 29 21:22 table_games.txt
+
+barmaley78@Ubuntu78:~/toys$ sudo snap search opera
+Название             Версия        Издатель           Примечание  Описание
+opera                98.0.4759.15  opera-software✓    -           Fast, secure, easy-to-use browser
+opera-beta           98.0.4759.21  opera-software✓    -           Fast and secure web browser
+opera-developer      99.0.4780.0   opera-software✓    -           Fast and secure web browser
+opera-proxy          1.2.4         snawoot            -           Standalone Opera VPN proxies client.
+operator-builder     0.5.0         vmware-tanzu-labs  -           A Kubebuilder plugin to accelerate the development of Kubernetes operators.
+contasimple          3.1.0         enriverd           -           Contasimple Desktop
+office365webdesktop  0.7.2         rafgui012          -           It is a simple desktop application for Office365 of the web version for linux
+xdm-snap             8.0.25        capecrusader-121   -           Experimental Builds Of The XDM Download Manger's Upcoming Version
+devoperator          1.7.1         art-hens-teeth     classic     DevOps tools
+
+barmaley78@Ubuntu78:~/toys$ sudo snap install opera
+opera 98.0.4759.15 от Opera (opera-software✓) установлен
+
+barmaley78@Ubuntu78:~/toys$ sudo snap remove opera
+opera удалён
+
+barmaley78@Ubuntu78:~/toys$ crontab -e
+
+Правило
+*/3 * * * * cp -b -u ~/cars.txt cars.txt.bak
+
